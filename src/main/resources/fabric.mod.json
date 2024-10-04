@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet-permissions",
+  "version": "${version}",
+  "name": "Carpet Permissions",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "world.incest.carpetpermissions.CarpetPermissions"
+    ]
+  },
+  "mixins": [
+    "carpet-permissions.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
