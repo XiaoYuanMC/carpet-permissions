@@ -2,9 +2,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "mistress" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "mistress" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read
